@@ -30,14 +30,14 @@ ROUND(SUM((stays_in_week_nights + stays_in_weekend_nights)*adr),2) AS Revenue
 FROM HOTELS
 GROUP BY arrival_date_year, hotel;
 ```
-| Arrival_Year      | hotel        | Revenue    |
-|-------------------|--------------|------------|
-| 2018              | City Hotel   | 3,291,100.55 |
-| 2018              | Resort Hotel | 3,526,408.51 |
-| 2019              | City Hotel   | 1,4096,598 |
-| 2019              | Resort Hotel | 9,268,324 |
-| 2020              | City Hotel   | 9,328,218 |
-| 2020              | Resort Hotel | 6,219,692 |
+| Arrival_Year   | hotel        | Revenue    |
+|----------------|--------------|------------|
+| 2018           | City Hotel   | 3,291,100.55 |
+| 2018           | Resort Hotel | 3,526,408.51 |
+| 2019           | City Hotel   | 1,4096,598 |
+| 2019           | Resort Hotel | 9,268,324 |
+| 2020           | City Hotel   | 9,328,218 |
+| 2020           | Resort Hotel | 6,219,692 |
 From this simple table we can draw some important informations. In 2018, most of the revenue came from Resort Hotels, around 3.1 million dollars. However, in 2019 and 2020, City Hotels were more profitables. We can also take a look at the mean of revenue per stay in each year, by doing:
 ``` sql
 SELECT h1.arrival_date_year as Year, 
