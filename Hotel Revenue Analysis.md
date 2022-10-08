@@ -78,7 +78,7 @@ ON HOTELS.meal  = meal_cost.meal;
 So now that we have done some ETL, let's bring our data to Power BI to build our dashboard. If you know how to work with Power BI, you can build your report in any way you want. Let's take a look at mine:
 
 <p align="center">
-  <img src="images/dashGeral.jpg"/>
+  <img src="Images/dashGeral.jpg"/>
 </p>
 
 
