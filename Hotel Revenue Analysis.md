@@ -38,6 +38,7 @@ GROUP BY arrival_date_year, hotel;
 | 2019           | Resort Hotel | 9,268,324 |
 | 2020           | City Hotel   | 9,328,218 |
 | 2020           | Resort Hotel | 6,219,692 |
+
 From this simple table we can draw some important informations. In 2018, most of the revenue came from Resort Hotels, around 3.1 million dollars. However, in 2019 and 2020, City Hotels were more profitables. We can also take a look at the mean of revenue per stay in each year, by doing:
 ``` sql
 SELECT h1.arrival_date_year as Year, 
@@ -59,6 +60,7 @@ FROM hotel_2020 h3;
 | 2018              | 310.00   | 
 | 2019              | 341.24   |
 | 2020              | 443.93   |
+
 Those are interesting results, since although 2019 was the year with the highest number of accomodations, 2020 was the most profitable when considering the relation revenue per stays.
 
 There two other tables of interest to work with (import them to your SQL database), one of them brings informations about the discount earned by market segment, and the other one, informations of meal prices. We can look and join these information to our main table, querying the following code:
