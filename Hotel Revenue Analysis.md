@@ -1,4 +1,6 @@
 # Understanding the task and getting the data
+**obs: My Power BI version is in PT-BR. Pay attention to "." and "," separating numbers.**
+
 Here we have 3 datasets of informations of a hotel, for the years of 2018, 2019 and 2020. Theses datasets are stored in 3 excel files. Our main goal is to analyze the revenue of the hotel for this triennium, and for that, we are going to use some concepts of SQL, Power Query and DAX to create a dashboard in Power BI.
 
 First of all, we have to prepare our data to get started with the analysis. I'm using the MySQL database, so to import the data, we must save our excel files in csv format, but before that, we have to create our database and then connect to it, doing:
@@ -81,5 +83,21 @@ So now that we have done some ETL, let's bring our data to Power BI to build our
   <img src="Images/dashGeral.jpg"/>
 </p>
 
+From the that, we can draw some key and clear informations such as:
+* The total revenue of the triennium was equal to 11,86 million dollars;
+* The hotel had an average daily rate mean equal around 101,43 dollars;
+* The Average discount applied was around 25%.
 
+In terms of hotel type, it's clear that city hotels are the most wanted, however the percent difference is not so big (16.96%) when comparing to resort hotels. This indicates that the company's investiment is bringing profit on two fronts, in a well-distributed way.
 
+Distribution channels are examples of segmentation that can be done to investigate the costumers of your business. For our case, we have TA/TO as the real dominant distribution channel, having about 11.3 of 11.86 million dollars coming from it. It is really somenthing to look at, perharps a few marketing/admistrative actions could be taken to try to bring in more money from the other distribution channels.
+
+By looking at the curve chart, it's clear that this hotel had its peak in 2019 and had a revenue drop in the next year. Why was that? Had the Covid-19 pandemic  something to do with it? Probably. What about the revenue by countries? You can check that information selecting your country of interest. For example, let's check it for Brazil:
+
+<p align="center">
+  <img src="Images/BRA.jpg"/>
+</p>
+
+The country information can be very useful, guiding the stakeholders to considering an investment on marketing and deals, targeting people from those countries that produce fewer costumers.
+
+Since I am not able to create a account to share the dashboard online, due to a cellphone code problem for Brazil, it is available in my Github repository.
