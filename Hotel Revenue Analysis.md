@@ -11,7 +11,7 @@ CREATE DATABASE PROJETO;
 ```sql
 USE PROJETO;
 ```
-Now that we have our database, we have to import the csv files that contain our data. Click the mouse's right buttom over your created database and then click on "Table Data Import Wizard". The table data import window will pop-up asking from which path you want to import your file and after you choose it, you will another window asking if you want to create a new table or import your data to an existing table. The second option is used when you create your table previously, defining the the data type of each column, but for our case, we will create a new table (Repeat this process for the 3 tables).
+Now that we have our database, we have to import the csv files that contain our data. Click the mouse's right buttom over your created database and then click on "Table Data Import Wizard". The table data import window will pop-up asking from which path you want to import your file and after you choose it, you will have another window asking if you want to create a new table or import your data to an existing table. The second option is used when you create your table previously, defining the the data type of each column, but for our case, we will create a new table (Repeat this process for the 3 tables).
 
 With all the initial process done, we can finally do some work on the data. Since we 3 datasets, is a reasonable to create a new table contaning the information of all three of them. For that, we can do:
 ```sql
