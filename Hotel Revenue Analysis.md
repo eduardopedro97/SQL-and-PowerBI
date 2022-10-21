@@ -3,7 +3,7 @@
 
 Here we have 3 datasets of informations of a hotel, for the years of 2018, 2019 and 2020. Theses datasets are stored in 3 excel files. Our main goal is to analyze the revenue of the hotel for this triennium, and for that, we are going to use some concepts of SQL, Power Query and DAX to create a dashboard in Power BI.
 
-First of all, we have to prepare our data to get started with the analysis. I'm using the MySQL database, so to import the data, we must save our excel files in csv format, but before that, we have to create our database and then connect to it, doing:
+First of all, we have to prepare our data to get started with the analysis. I'm using the MySQL database, so to import the data (in my case), we must save our excel files in csv format, but before that, we have to create our database and then connect to it, doing:
 
 ```sql
 CREATE DATABASE PROJETO;
