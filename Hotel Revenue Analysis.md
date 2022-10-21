@@ -1,5 +1,5 @@
 # Understanding the task and getting the data
-**obs: My Power BI version is in PT-BR. Pay attention to "." and "," separating numbers.**
+**OBS: My Power BI version is in PT-BR. Pay attention to "." and "," separating numbers.**
 
 Here we have 3 datasets of informations of a hotel, for the years of 2018, 2019 and 2020. Theses datasets are stored in 3 excel files. Our main goal is to analyze the revenue of the hotel for this triennium, and for that, we are going to use some concepts of SQL, Power Query and DAX to create a dashboard in Power BI.
 
